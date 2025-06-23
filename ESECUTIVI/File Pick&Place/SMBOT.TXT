@@ -1,0 +1,12 @@
+********************************************************************
+*                                                                  *
+* Surface Mount Bottom Report                                      *
+*                                                                  *
+* D:\00.LAVORI IN CORSO\METALTRONICA\25-334-0 (PFC )\25-334-0.MAX  *
+* Wed Jun 04 21:42:51 2025                                         *
+*                                                                  *
+********************************************************************
+
+ REF DES    VALUE            PACKAGE          FOOTPRINT                      X INSERT   Y INSERT   ROTATION
+------------------------------------------------------------------------------------------------------------
+No Components of this Type were Found
