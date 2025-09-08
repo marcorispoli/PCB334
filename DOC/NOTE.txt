@@ -1,0 +1,11 @@
+Note di modifica 
+- Occorre aggiungere resistenze di pullup per I2C sensore di temperatura.
+- Occorre aggiungere un carico di 100K (o meno) sull'ingresso AC di potenza per avere il segnale anche a vuoto.
+- Utilizzato DENKA LR20AD come termal pad sui mosfets.
+
+Circuito di scarica:
+- Bug su Q2: sbagliato il footprint Source/drain
+- R32 da 100 ohm deve essere ridotta (oppure ridotto C21) perchè
+  quando il circuito si spegne C21 ci mette un pò a caricarsi alla tensione 
+  di soglia.
+
