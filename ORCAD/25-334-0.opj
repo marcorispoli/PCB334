@@ -1,9 +1,11 @@
 (ExpressProject ""
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[09/24/25]")
+  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[10/20/25]")
   (ProjectType "PCB")
   (Folder "Design Resources"
-    (Folder "Library")
+    (Folder "Library"
+      (File ".\library.olb"
+        (Type "Schematic Library")))
     ("Allegro Netlist Directory" "allegro")
     (File ".\25-334-0.dsn"
       (Type "Schematic Design"))
@@ -74,48 +76,51 @@
       (Path "Design Resources")
       (Path "Design Resources" ".\25-334-0.dsn")
       (Path "Design Resources" ".\25-334-0.dsn" "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" ".\library.olb")
       (Path "Outputs")
-      (Select "Design Resources" ".\25-334-0.dsn" "SCHEMATIC1" "SENSING"))
+      (Select "Design Resources" ".\25-334-0.dsn" "SCHEMATIC1" "INPUT_SWITCH"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 438 0 911"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 405 0 911"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1296 24 929")
-        (Scroll "-21 -7")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1273 24 929")
+        (Scroll "-10 -7")
         (Zoom "104")
         (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-25-334\ORCAD\25-334-0.DSN")
+      (Path "D:\GIT\HW\PCB334\ORCAD\25-334-0.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "POWER"))
+      (Page "INPUT_SWITCH"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1296 24 929")
-        (Scroll "-4 0")
-        (Zoom "107")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1273 24 929")
+        (Scroll "-10 -7")
+        (Zoom "104")
         (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-25-334\ORCAD\25-334-0.DSN")
+      (Path "D:\GIT\HW\PCB334\ORCAD\25-334-0.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "SENSING"))
+      (Page "OUTPUT"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1296 24 929")
-        (Scroll "-33 0")
-        (Zoom "123")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1273 24 929")
+        (Scroll "-10 -7")
+        (Zoom "104")
         (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-25-334\ORCAD\25-334-0.DSN")
+      (Path "D:\GIT\HW\PCB334\ORCAD\25-334-0.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "SWITCH")))
+      (Page "INPUT_uC")))
   (PartMRUSelector
+    (ADUM3195
+      (FullPartName "ADUM3195.Normal")
+      (LibraryName "D:\GIT\HW\PCB334\ORCAD\LIBRARY.OLB")
+      (DeviceIndex "0"))
     (R1206
       (FullPartName "R1206.Normal")
       (LibraryName "D:\DATA\ORCAD\LIBRERIA\CAPTURE\PASSIVI.OLB")
@@ -132,6 +137,6 @@
       (FullPartName "MORS2L.Normal")
       (LibraryName "D:\00.LIBRERIE ORCAD\OC_CAPTURE\02.CONNETTORI.OLB")
       (DeviceIndex "0")))
-  (MPSSessionName "marco")
+  (MPSSessionName "user")
   (ISPCBBASICLICENSE "false")
   (LastUsedLibraryBrowseDirectory "D:\Data\ORCAD\LIBRERIA\Capture"))
