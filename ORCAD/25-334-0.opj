@@ -1,6 +1,6 @@
 (ExpressProject ""
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[10/20/25]")
+  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[01/21/26]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -74,49 +74,30 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\25-334-0.dsn")
-      (Path "Design Resources" ".\25-334-0.dsn" "SCHEMATIC1")
+      (Path "Design Resources"
+         "c:\users\marco\documents\data\progetti-git\hw\pcb-25-334\orcad\25-334-0.dsn")
+      (Path "Design Resources"
+         "c:\users\marco\documents\data\progetti-git\hw\pcb-25-334\orcad\25-334-0.dsn"
+         "SCHEMATIC1")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" ".\library.olb")
+      (Path "Design Resources" "Library"
+         "c:\users\marco\documents\data\progetti-git\hw\pcb-25-334\orcad\library.olb")
       (Path "Outputs")
-      (Select "Design Resources" ".\25-334-0.dsn" "SCHEMATIC1" "INPUT_SWITCH"))
+      (Select "Design Resources"
+         "c:\users\marco\documents\data\progetti-git\hw\pcb-25-334\orcad\25-334-0.dsn"
+         "SCHEMATIC1" "PROTEZIONI"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 405 0 911"))
-      (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1273 24 929")
-        (Scroll "-10 -7")
-        (Zoom "104")
-        (Occurrence "/"))
-      (Path "D:\GIT\HW\PCB334\ORCAD\25-334-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "INPUT_SWITCH"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1273 24 929")
-        (Scroll "-10 -7")
-        (Zoom "104")
-        (Occurrence "/"))
-      (Path "D:\GIT\HW\PCB334\ORCAD\25-334-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "OUTPUT"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1273 24 929")
-        (Scroll "-10 -7")
-        (Zoom "104")
-        (Occurrence "/"))
-      (Path "D:\GIT\HW\PCB334\ORCAD\25-334-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "INPUT_uC")))
+        (Placement "44 0 1 -1 -1 -1 -1 0 410 0 911"))
+      (Tab 0)))
   (PartMRUSelector
+    (1ED3124MU12HXUMA1
+      (FullPartName "1ED3124MU12HXUMA1.Normal")
+      (LibraryName
+         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-25-334\ORCAD\LIBRARY.OLB")
+      (DeviceIndex "0"))
     (ADUM3195
       (FullPartName "ADUM3195.Normal")
       (LibraryName "D:\GIT\HW\PCB334\ORCAD\LIBRARY.OLB")
@@ -137,6 +118,6 @@
       (FullPartName "MORS2L.Normal")
       (LibraryName "D:\00.LIBRERIE ORCAD\OC_CAPTURE\02.CONNETTORI.OLB")
       (DeviceIndex "0")))
-  (MPSSessionName "user")
+  (MPSSessionName "marco")
   (ISPCBBASICLICENSE "false")
   (LastUsedLibraryBrowseDirectory "D:\Data\ORCAD\LIBRERIA\Capture"))
