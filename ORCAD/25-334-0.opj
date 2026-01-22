@@ -1,6 +1,6 @@
 (ExpressProject ""
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[01/21/26]")
+  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[01/22/26]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -82,17 +82,19 @@
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library"
          "c:\users\marco\documents\data\progetti-git\hw\pcb-25-334\orcad\library.olb")
-      (Path "Outputs")
-      (Select "Design Resources"
-         "c:\users\marco\documents\data\progetti-git\hw\pcb-25-334\orcad\25-334-0.dsn"
-         "SCHEMATIC1" "PROTEZIONI"))
+      (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 410 0 911"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 530 0 911"))
       (Tab 0)))
   (PartMRUSelector
+    (TPSI3050
+      (FullPartName "TPSI3050.Normal")
+      (LibraryName
+         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-25-334\ORCAD\LIBRARY.OLB")
+      (DeviceIndex "0"))
     (1ED3124MU12HXUMA1
       (FullPartName "1ED3124MU12HXUMA1.Normal")
       (LibraryName
