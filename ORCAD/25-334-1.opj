@@ -1,61 +1,25 @@
 (ExpressProject ""
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[02/02/26]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library")
-    ("Allegro Netlist Directory" "allegro")
     (File ".\25-334-1.dsn"
       (Type "Schematic Design"))
     (BuildFileAddedOrDeleted "x")
     (CompileFileAddedOrDeleted "x")
-    (DOCKED "TRUE")
-    (DOCKING_POSITION "59420")
-    (NoModify)
-    (Display_Online_DRC_Results "FALSE"))
-  (Folder "Layout")
+    (NoModify))
   (Folder "Outputs")
   (Folder "Referenced Projects")
-  (Folder "PSpice Resources"
-    (Folder "Simulation Profiles")
-    (Folder "Model Libraries"
-      (Sort User))
-    (Folder "Stimulus Files"
-      (Sort User))
-    (Folder "Include Files"
-      (Sort User)))
-  (Folder "Logs")
   (PartMRUSelector)
   (GlobalState
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" ".\25-334-1.dsn")
       (Path "Design Resources" ".\25-334-1.dsn" "SCHEMATIC1")
-      (Select "Design Resources" ".\25-334-1.dsn" "SCHEMATIC1" "POWER2"))
+      (Select "Design Resources" ".\25-334-1.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 330 0 911"))
-      (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1385 24 929")
-        (Scroll "-48 0")
-        (Zoom "107")
-        (Occurrence "/"))
-      (Path "D:\GIT\HW\PCB334\ORCAD\25-334-1.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "OUTPUT"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 0 0 5 1385 24 929")
-        (Scroll "-48 0")
-        (Zoom "107")
-        (Occurrence "/"))
-      (Path "D:\GIT\HW\PCB334\ORCAD\25-334-1.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "POWER2")))
-  (MPSSessionName "user"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 541"))
+      (Tab 0))))
