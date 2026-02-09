@@ -1,0 +1,3 @@
+Item\tQuantity\tReference\tValue\tPkg\tPN\tACQ\tACQ2
+
+{Item}\t{Quantity}\t{Reference}\t{Value}\t{PCB Footprint}\t{PN}\t{MOUSER}\t{PN FORNITORE}
