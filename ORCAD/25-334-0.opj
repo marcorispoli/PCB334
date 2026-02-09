@@ -1,9 +1,11 @@
 (ExpressProject ""
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[05/22/25]")
+  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[01/22/26]")
   (ProjectType "PCB")
   (Folder "Design Resources"
-    (Folder "Library")
+    (Folder "Library"
+      (File ".\library.olb"
+        (Type "Schematic Library")))
     ("Allegro Netlist Directory" "allegro")
     (File ".\25-334-0.dsn"
       (Type "Schematic Design"))
@@ -72,35 +74,40 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Outputs")
-      (Select "Design Resources"))
+      (Path "Design Resources"
+         "c:\users\marco\documents\data\progetti-git\hw\pcb-25-334\orcad\25-334-0.dsn")
+      (Path "Design Resources"
+         "c:\users\marco\documents\data\progetti-git\hw\pcb-25-334\orcad\25-334-0.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "c:\users\marco\documents\data\progetti-git\hw\pcb-25-334\orcad\library.olb")
+      (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 1056"))
-      (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 52 1405 52 646")
-        (Scroll "-208 0")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path "D:\00.CAD\00.PROGETTI\METALTRONICA\25-334-0 (PFC )\25-334-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "POWER"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 78 1116 78 650")
-        (Scroll "0 0")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path "D:\00.CAD\00.PROGETTI\METALTRONICA\25-334-0 (PFC )\25-334-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "INPUT")))
+        (Placement "44 0 1 -1 -1 -1 -1 0 530 0 911"))
+      (Tab 0)))
   (PartMRUSelector
+    (TPSI3050
+      (FullPartName "TPSI3050.Normal")
+      (LibraryName
+         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-25-334\ORCAD\LIBRARY.OLB")
+      (DeviceIndex "0"))
+    (1ED3124MU12HXUMA1
+      (FullPartName "1ED3124MU12HXUMA1.Normal")
+      (LibraryName
+         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-25-334\ORCAD\LIBRARY.OLB")
+      (DeviceIndex "0"))
+    (ADUM3195
+      (FullPartName "ADUM3195.Normal")
+      (LibraryName "D:\GIT\HW\PCB334\ORCAD\LIBRARY.OLB")
+      (DeviceIndex "0"))
+    (R1206
+      (FullPartName "R1206.Normal")
+      (LibraryName "D:\DATA\ORCAD\LIBRERIA\CAPTURE\PASSIVI.OLB")
+      (DeviceIndex "0"))
     (DISSI
       (FullPartName "DISSI.Normal")
       (LibraryName "D:\00.LIBRERIE ORCAD\OC_CAPTURE\01.PRINCIPALE.OLB")
@@ -113,5 +120,6 @@
       (FullPartName "MORS2L.Normal")
       (LibraryName "D:\00.LIBRERIE ORCAD\OC_CAPTURE\02.CONNETTORI.OLB")
       (DeviceIndex "0")))
-  (MPSSessionName "Osvy")
-  (ISPCBBASICLICENSE "false"))
+  (MPSSessionName "marco")
+  (ISPCBBASICLICENSE "false")
+  (LastUsedLibraryBrowseDirectory "D:\Data\ORCAD\LIBRERIA\Capture"))
