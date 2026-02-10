@@ -1,6 +1,5 @@
 (ExpressProject ""
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[02/02/26]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library")
@@ -9,26 +8,31 @@
     (BuildFileAddedOrDeleted "x")
     (CompileFileAddedOrDeleted "x")
     (NoModify)
-    (DOCKED "TRUE")
-    (DOCKING_POSITION "59420")
     (BOM_Scope "0")
     (BOM_Mode "0")
     (BOM_Report_File
-       "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-25-334\ORCAD\25-334-1.BOM")
+       "E:\00.CAD\00.PROGETTI\METALTRONICA\25-334-X (PFC )\25-334-1 (PFC )\25-334-1.BOM")
     (BOM_Merge_Include "FALSE")
     (BOM_Property_Combine_7.0
-       "{Item}\t{Quantity}\t{Reference}\t{Value}\t{PCB Footprint}\t{PN}\t{MOUSER}\t{PN FORNITORE}")
-    (BOM_Header "Item\tQuantity\tReference\tValue\tPkg\tPN\tACQ\tACQ2")
+       "{Item}\t{Quantity}\t{Reference}\t{Descrizione}\t{Value}\t{PN Costruttore}\t{Codice Acquisto Fornitore}\t{Costruttore}\t{PACKAGE}\t{PCB Footprint}\t{NOTE}")
+    (BOM_Header
+       "Pos.\tQtà\tRif\tDescrizione\tValue\tPN Costruttore\tPN Fornitore\tCostruttore\tPackage\tPcbFootprint\tNote")
     (BOM_Include_File
-       "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-25-334\ORCAD\25-334-1.INC")
+       "E:\00.CAD\00.PROGETTI\METALTRONICA\25-334-X (PFC )\25-334-1 (PFC )\25-334-1.INC")
     (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
     (BOM_One_Part_Per_Line "FALSE")
-    (Open_BOM_in_Excel "FALSE")
-    (BOM_View_Output "FALSE"))
-  (Folder "Layout")
+    (Open_BOM_in_Excel "TRUE")
+    (BOM_View_Output "FALSE")
+    (Netlist_TAB "3")
+    (LAYOUT_Netlist_File "25-334-1.MNL")
+    (LAYOUT_PCB_Footprint "{PCB Footprint}")
+    ( "FALSE")
+    (LAYOUT_Units "0"))
   (Folder "Outputs"
     (File ".\25-334-1.bom"
-      (Type "Report")))
+      (Type "Report"))
+    (File ".\25-334-1.mnl"
+      (Type "LAYOUT Netlist File")))
   (Folder "Referenced Projects")
   (PartMRUSelector)
   (GlobalState
@@ -42,15 +46,29 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 613"))
-      (Tab 0)))
-  (Folder "PSpice Resources"
-    (Folder "Simulation Profiles")
-    (Folder "Model Libraries"
-      (Sort User))
-    (Folder "Stimulus Files"
-      (Sort User))
-    (Folder "Include Files"
-      (Sort User)))
-  (Folder "Logs")
-  (MPSSessionName "marco"))
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 541"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 104 1693 104 688")
+        (Scroll "-186 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "E:\00.CAD\00.PROGETTI\METALTRONICA\25-334-X (PFC )\25-334-1 (PFC )\25-334-1.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "POWER_SUPPLY"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 130 1719 130 714")
+        (Scroll "-186 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "E:\00.CAD\00.PROGETTI\METALTRONICA\25-334-X (PFC )\25-334-1 (PFC )\25-334-1.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "CAN BUS")))
+  (MPSSessionName "Osvaldo")
+  (ISPCBBASICLICENSE "false"))

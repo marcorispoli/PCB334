@@ -1,19 +1,16 @@
-********************************************************************
-*                                                                  *
-* Surface Mount Bottom Report                                      *
-*                                                                  *
-* E:\00.LAVORI IN CORSO\METALTRONICA\25-334-1 (PFC )\25-334-1.MAX  *
-* Tue Feb 03 20:44:18 2026                                         *
-*                                                                  *
-********************************************************************
+************************************************************************************
+*                                                                                  *
+* Surface Mount Bottom Report                                                      *
+*                                                                                  *
+* E:\00.CAD\00.PROGETTI\METALTRONICA\25-334-X (PFC )\25-334-1 (PFC )\25-334-1.MAX  *
+* Tue Feb 10 14:52:02 2026                                                         *
+*                                                                                  *
+************************************************************************************
 
  REF DES    VALUE            PACKAGE          FOOTPRINT                      X INSERT   Y INSERT   ROTATION
 ------------------------------------------------------------------------------------------------------------
 C1         2u2F             C                SMD1210                         117.48 mm  116.84 mm 90      
-C2         2u2F             C                SMD1210                         92.71 mm   99.70 mm  90      
-C3         100nF            C                SMD0603                         95.25 mm   100.97 mm 270     
 C6         100nF            C                SMD0603                         108.59 mm  90.81 mm  90      
-C7         4u7              C                ETANT-C                         97.79 mm   109.22 mm 0       
 C8         4u7              C                ETANT-C                         142.24 mm  114.94 mm 270     
 C9         4u7              C                ETANT-C                         130.81 mm  114.94 mm 270     
 C10        4u7              C                ETANT-C                         91.44 mm   92.08 mm  270     
@@ -79,7 +76,6 @@ C107       100nF            C0603            SMD0603                         61.
 C108       100nF            C0603            SMD0603                         131.45 mm  58.42 mm  90      
 C109       100nF            C0603            SMD0603                         131.41 mm  70.52 mm  270     
 C110       10nF             C0603            SMD0603                         142.88 mm  124.46 mm 90      
-C111       100nF            C                SMD0603                         97.79 mm   106.05 mm 180     
 C112       330nF            C                SMD0805                         31.75 mm   53.98 mm  90      
 C113       330nF            C                SMD0805                         34.29 mm   52.71 mm  90      
 C114       4u7              C1206            SMD1206                         45.09 mm   54.61 mm  270     
@@ -88,13 +84,10 @@ C116       100nF            C                SMD0603                         113
 C117       100nF            C0603            SMD0603                         57.15 mm   89.54 mm  0       
 C118       100nF            C0603            SMD0603                         54.61 mm   115.57 mm 270     
 C119       100nF            C0603            SMD0603                         57.15 mm   75.57 mm  0       
-C120       470pF            C                SMD0603                         89.54 mm   100.97 mm 90      
-D4         1N4148WT         DIODE_1          SOD523F1-2                      96.52 mm   54.61 mm  180     
+D4         1N4148WT         DIODE_1          SOD523F1-2                      96.52 mm   55.25 mm  180     
 D5         ESD2CAN24DBZRQ1  ESD2CAN24DBZRQ1  SOT23-123                       129.54 mm  102.87 mm 270     
 DL1        VERDE            LED_1            LED0805-MET-12                  110.49 mm  90.81 mm  90      
-DL2        VERDE            LED_1            LED0805-MET-12                  100.97 mm  104.78 mm 270     
-DL3        VERDE            LED_1            LED0805-MET-12                  97.16 mm   100.33 mm 270     
-DL4        ORANGE           LED_1            LED0805-MET-12                  74.93 mm   57.79 mm  270     
+DL4        ORANGE           LED_1            LED0805-MET-12                  74.30 mm   57.79 mm  270     
 DL5        BLU              LED_1            LED0805-MET-12                  147.96 mm  85.09 mm  180     
 DL6        GIALLO           LED_1            LED0805-MET-12                  147.96 mm  72.39 mm  180     
 DL7        ROSSO            LED_1            LED0805-MET-12                  147.96 mm  69.85 mm  180     
@@ -109,7 +102,7 @@ L5         DLW32SH101XF2L   CHOKE_DLW32SH1.. DLW32S_MURATA                   123
 OP1        LTC2054HS5TRMPBF LTC2054          SOT23-5L                        71.15 mm   114.62 mm 270     
 OP2        MAX999AAUK+T     MAX9619_1        SOT23-5L                        59.08 mm   112.08 mm 270     
 OP3        MAX999AAUK+T     MAX9619_1        SOT23-5L                        77.44 mm   93.03 mm  90      
-Q2         SIHD2N80E-GE3    2N7002L_1        DPACK                           84.58 mm   55.88 mm  90      
+Q2         SIHD2N80E-GE3    2N7002L_1        DPACK                           83.95 mm   55.88 mm  90      
 Q13        2N7002L          2N7002L          SOT23-123                       142.24 mm  83.82 mm  270     
 Q14        2N7002L          2N7002L          SOT23-123                       137.16 mm  74.93 mm  270     
 Q15        2N7002L          2N7002L          SOT23-123                       142.24 mm  70.49 mm  270     
@@ -123,9 +116,7 @@ Q30        2N7002LT1G       MOSFET_N_8       SOT23-123                       62.
 Q31        2N7002LT1G       MOSFET_N_8       SOT23-123                       62.87 mm   93.98 mm  0       
 Q32        2N7002LT1G       MOSFET_N_8       SOT23-123                       69.85 mm   98.43 mm  90      
 Q33        2N7002LT1G       MOSFET_N_8       SOT23-123                       69.85 mm   103.51 mm 90      
-R6         3K3              R                SMD0603                         103.51 mm  104.78 mm 270     
 R7         1K               R                SMD0603                         110.49 mm  94.62 mm  270     
-R8         1K               R                SMD0603                         95.25 mm   97.79 mm  270     
 R9         510K             R                SMD1210                         136.53 mm  140.97 mm 270     
 R10        470K             R                SMD1210                         136.53 mm  133.99 mm 270     
 R11        1K               R                SMD0603                         144.78 mm  137.16 mm 270     
@@ -225,7 +216,6 @@ R168       1R               R                SMD0603                         37.
 R169       1R               R                SMD0603                         37.47 mm   68.58 mm  0       
 TVS1       SMBJ3V3-E3/5B    SMBJ_0           SMB-1_2                         144.78 mm  142.88 mm 270     
 TVS2       SMBJ3V3-E3/5B    SMBJ_0           SMB-1_2                         121.92 mm  52.07 mm  270     
-U5         UA78L05ACPKM3    78XX/SIP_3       SOT89_123                       91.21 mm   104.33 mm 0       
 U6         NCP1117ST33T3G   NCP1117ST_0      SOT223-1234                     102.87 mm  92.08 mm  90      
 U8         TMCS1126A1BQDVGR TMCS1126         DVG0010A                        59.69 mm   40.64 mm  270     
 U13        TJA1050T         TJA1050          SO8                             116.28 mm  102.87 mm 270     
